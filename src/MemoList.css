@@ -1,0 +1,10 @@
+.memo-list {
+  margin-bottom: 50px;
+}
+
+.memo-list p {
+  padding: 0px;
+  margin: 0px;
+  cursor: text;
+  display: inline-block;
+}
