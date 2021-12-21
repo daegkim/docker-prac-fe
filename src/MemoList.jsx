@@ -13,7 +13,7 @@ function MemoList() {
 
   useEffect(() => {
     console.log('reload')
-    axios.get('http://localhost:4000/memo/list')
+    axios.get('/api/memo/list')
     .then((res) => {
       if(res.data.isSuccess){
         dispatch(setMemos(res.data.memos));

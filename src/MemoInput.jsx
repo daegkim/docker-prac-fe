@@ -17,7 +17,7 @@ function MemoInput() {
       return;
     }
 
-    axios.post('http://localhost:4000/memo/new-memo', {
+    axios.post('/api/memo/new-memo', {
       newMemo: newMemo
     })
     .then((res) => {
